@@ -1,0 +1,1 @@
+/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/build/intermediates/cxx/RelWithDebInfo/2422xj2z/obj/x86

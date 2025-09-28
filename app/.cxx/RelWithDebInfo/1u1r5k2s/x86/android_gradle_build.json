@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\Yolo_projects_UI\\sea_android\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\User\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\Yolo_projects_UI\\sea_android\\app\\.cxx\\RelWithDebInfo\\1u1r5k2s\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\User\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\Yolo_projects_UI\\sea_android\\app\\.cxx\\RelWithDebInfo\\1u1r5k2s\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "yolov8ncnn-RelWithDebInfo-x86": {
+      "buildCommandComponents": [
+        "D:\\User\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\Yolo_projects_UI\\sea_android\\app\\.cxx\\RelWithDebInfo\\1u1r5k2s\\x86",
+        "yolov8ncnn"
+      ],
+      "buildType": "release",
+      "abi": "x86",
+      "artifactName": "yolov8ncnn",
+      "output": "D:\\Yolo_projects_UI\\sea_android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\1u1r5k2s\\obj\\x86\\libyolov8ncnn.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

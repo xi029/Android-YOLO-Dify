@@ -1,0 +1,3 @@
+D:/Yolo_projects_UI/sea_android/app/.cxx/Debug/5t415t4k/x86_64/CMakeFiles/yolov8ncnn.dir
+D:/Yolo_projects_UI/sea_android/app/.cxx/Debug/5t415t4k/x86_64/CMakeFiles/edit_cache.dir
+D:/Yolo_projects_UI/sea_android/app/.cxx/Debug/5t415t4k/x86_64/CMakeFiles/rebuild_cache.dir

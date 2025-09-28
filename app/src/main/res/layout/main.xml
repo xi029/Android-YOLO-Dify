@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch2GIF"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:background="#1E3A5F"
+            android:padding="10dp"
+            android:text="海域监控"
+            android:textColor="#FFFFFF"
+            android:thumbTint="#FFFFFF"
+            android:trackTint="#28afbb" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#1E3A5F"
+            android:padding="10dp"
+            android:text="海域助手"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+        <Button
+            android:id="@+id/buttonSwitchCamera"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#1E3A5F"
+            android:padding="10dp"
+            android:text="切换摄像头"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinnerModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/model_array" />
+
+        <Spinner
+            android:id="@+id/spinnerCPUGPU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/cpugpu_array" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="船舶态势感知"
+        android:textSize="20sp"
+        android:textColor="#54d3d8"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#1E3A5F"
+        android:padding="10dp"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:background="#065365"
+        android:padding="8dp"> <!-- 设置边框的宽度 -->
+
+        <SurfaceView
+            android:id="@+id/cameraview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" /> <!-- 使SurfaceView背景透明 -->
+
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E3A5F"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="数字孪生可视化平台"
+        android:textColor="#54d3d8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:background="#065365"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/sea"
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:src="@drawable/logo_sea" />
+    </FrameLayout>
+
+</LinearLayout>

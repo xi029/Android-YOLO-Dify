@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">海域引领</string>
+    <string name="login_activity_title">登录</string>
+    <string name="webview_activity_name">海域助手</string>
+    <string-array name="model_array">
+        <item>SeaNet</item>
+        <item>SHIP</item>
+    </string-array>
+    <string-array name="cpugpu_array">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+</resources>

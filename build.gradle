@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.4.0' // 使用最新稳定版本
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21' // 使用最新稳定版本
+    }
+
+
+    allprojects {
+        repositories {
+            google()
+            mavenCentral()
+        }
+    }
+}

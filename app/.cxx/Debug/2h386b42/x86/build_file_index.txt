@@ -1,0 +1,1 @@
+/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat.databack.ubantu/app/src/main/jni/CMakeLists.txt

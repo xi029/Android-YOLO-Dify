@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/Debug/3t3o586v/x86_64",
+  "command": "/home/cat/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android24 --sysroot=/home/cat/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dyolov8ncnn_EXPORTS -isystem \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86_64/include/ncnn\" -isystem \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/include\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles/yolov8ncnn.dir/yolov8ncnn.cpp.o -c \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/yolov8ncnn.cpp\"",
+  "file": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/yolov8ncnn.cpp"
+},
+
+{
+  "directory": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/Debug/3t3o586v/x86_64",
+  "command": "/home/cat/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android24 --sysroot=/home/cat/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dyolov8ncnn_EXPORTS -isystem \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86_64/include/ncnn\" -isystem \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/include\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles/yolov8ncnn.dir/yolo.cpp.o -c \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/yolo.cpp\"",
+  "file": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/yolo.cpp"
+},
+
+{
+  "directory": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/Debug/3t3o586v/x86_64",
+  "command": "/home/cat/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android24 --sysroot=/home/cat/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dyolov8ncnn_EXPORTS -isystem \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86_64/include/ncnn\" -isystem \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/include\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles/yolov8ncnn.dir/ndkcamera.cpp.o -c \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ndkcamera.cpp\"",
+  "file": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ndkcamera.cpp"
+}
+]

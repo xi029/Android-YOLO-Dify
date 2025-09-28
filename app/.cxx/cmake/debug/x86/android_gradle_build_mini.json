@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86/lib/cmake/glslang/glslang-config-version.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/abi-x86/OpenCVConfig.cmake",
+    "/home/cat/Android/Sdk/ndk/28.0.12433566/build/cmake/android-legacy.toolchain.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/CMakeLists.txt",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86/lib/cmake/glslang/glslang-targets.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86/lib/cmake/ncnn/ncnn.cmake",
+    "/home/cat/Android/Sdk/ndk/28.0.12433566/build/cmake/android.toolchain.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/OpenCVConfig.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86/lib/cmake/ncnn/ncnn-release.cmake",
+    "/home/cat/Android/Sdk/ndk/28.0.12433566/build/cmake/compiler_id.cmake",
+    "/home/cat/Android/Sdk/ndk/28.0.12433566/build/cmake/platforms.cmake",
+    "/home/cat/Android/Sdk/ndk/28.0.12433566/build/cmake/abis.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/abi-x86/OpenCVModules.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/abi-x86/OpenCVModules-release.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86/lib/cmake/ncnn/ncnnConfig.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86/lib/cmake/glslang/glslang-targets-release.cmake",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/ncnn-20221128-android-vulkan/x86/lib/cmake/glslang/glslang-config.cmake"
+  ],
+  "cleanCommands": [
+    "/home/cat/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/cat/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov8ncnn-Debug-x86": {
+      "artifactName": "yolov8ncnn",
+      "buildCommand": "/home/cat/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86\" yolov8ncnn",
+      "abi": "x86",
+      "output": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/build/intermediates/cmake/debug/obj/x86/libyolov8ncnn.so"
+    }
+  }
+}

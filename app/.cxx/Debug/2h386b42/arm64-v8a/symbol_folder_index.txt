@@ -1,0 +1,1 @@
+/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat.databack.ubantu/app/build/intermediates/cxx/Debug/2h386b42/obj/arm64-v8a

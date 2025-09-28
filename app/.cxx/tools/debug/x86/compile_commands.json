@@ -1,0 +1,19 @@
+[
+{
+  "directory": "D:/Yolo_projects_UI/sea_android/app/.cxx/Debug/5t415t4k/x86",
+  "command": "D:\\User\\AndroidSDK\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android24 --gcc-toolchain=D:/User/AndroidSDK/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/User/AndroidSDK/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyolov8ncnn_EXPORTS -isystem D:/Yolo_projects_UI/sea_android/app/src/main/jni/ncnn-20221128-android-vulkan/x86/include/ncnn -isystem D:/Yolo_projects_UI/sea_android/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles\\yolov8ncnn.dir\\yolov8ncnn.cpp.o -c D:\\Yolo_projects_UI\\sea_android\\app\\src\\main\\jni\\yolov8ncnn.cpp",
+  "file": "D:\\Yolo_projects_UI\\sea_android\\app\\src\\main\\jni\\yolov8ncnn.cpp"
+},
+
+{
+  "directory": "D:/Yolo_projects_UI/sea_android/app/.cxx/Debug/5t415t4k/x86",
+  "command": "D:\\User\\AndroidSDK\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android24 --gcc-toolchain=D:/User/AndroidSDK/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/User/AndroidSDK/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyolov8ncnn_EXPORTS -isystem D:/Yolo_projects_UI/sea_android/app/src/main/jni/ncnn-20221128-android-vulkan/x86/include/ncnn -isystem D:/Yolo_projects_UI/sea_android/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles\\yolov8ncnn.dir\\yolo.cpp.o -c D:\\Yolo_projects_UI\\sea_android\\app\\src\\main\\jni\\yolo.cpp",
+  "file": "D:\\Yolo_projects_UI\\sea_android\\app\\src\\main\\jni\\yolo.cpp"
+},
+
+{
+  "directory": "D:/Yolo_projects_UI/sea_android/app/.cxx/Debug/5t415t4k/x86",
+  "command": "D:\\User\\AndroidSDK\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android24 --gcc-toolchain=D:/User/AndroidSDK/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/User/AndroidSDK/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dyolov8ncnn_EXPORTS -isystem D:/Yolo_projects_UI/sea_android/app/src/main/jni/ncnn-20221128-android-vulkan/x86/include/ncnn -isystem D:/Yolo_projects_UI/sea_android/app/src/main/jni/opencv-4.5.1-android-sdk/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles\\yolov8ncnn.dir\\ndkcamera.cpp.o -c D:\\Yolo_projects_UI\\sea_android\\app\\src\\main\\jni\\ndkcamera.cpp",
+  "file": "D:\\Yolo_projects_UI\\sea_android\\app\\src\\main\\jni\\ndkcamera.cpp"
+}
+]

@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/cat/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/RelWithDebInfo/p5y6r3d1/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/cat/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/RelWithDebInfo/p5y6r3d1/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "yolov8ncnn-RelWithDebInfo-x86": {
+      "artifactName": "yolov8ncnn",
+      "buildCommandComponents": [
+        "/home/cat/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/RelWithDebInfo/p5y6r3d1/x86",
+        "yolov8ncnn"
+      ],
+      "abi": "x86",
+      "output": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/build/intermediates/cxx/RelWithDebInfo/p5y6r3d1/obj/x86/libyolov8ncnn.so",
+      "runtimeFiles": []
+    }
+  }
+}

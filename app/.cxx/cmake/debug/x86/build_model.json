@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat",
+      "sdkFolder": "/home/cat/Android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app",
+      "makeFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/src/main/jni/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/.cxx",
+      "cxxFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx",
+      "ndkFolder": "/home/cat/Android/Sdk/ndk/28.0.12433566",
+      "ndkVersion": "28.0.12433566-rc1",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86",
+  "jsonFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cxx/debug/x86",
+  "objFolder": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/build/intermediates/cmake/debug/obj/x86",
+  "buildCommandFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86/build_command.txt",
+  "buildOutputFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86/build_output.txt",
+  "modelOutputFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cxx/debug/x86/CMakeLists.txt",
+    "toolchainWrapperFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cxx/debug/x86/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cxx/debug/x86/build_generation_state.json",
+    "cacheKeyFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cxx/debug/x86/compiler_cache_key.json",
+    "compilerCacheUseFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cxx/debug/x86/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cxx/debug/x86/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cxx/debug/x86/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat/app/.cxx/cmake/debug/x86/compile_commands.json"
+}

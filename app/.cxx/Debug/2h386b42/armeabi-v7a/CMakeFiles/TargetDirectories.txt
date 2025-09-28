@@ -1,0 +1,3 @@
+/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat.databack.ubantu/app/.cxx/Debug/2h386b42/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat.databack.ubantu/app/.cxx/Debug/2h386b42/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/cat/Android doc/ncnn-android-yolov8-main/Edge cat.databack.ubantu/app/.cxx/Debug/2h386b42/armeabi-v7a/CMakeFiles/yolov8ncnn.dir
