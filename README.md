@@ -1,6 +1,7 @@
 # 🌊 海域引领 — 船舶智能态势感知 Android App
 
-> **简介**：移动端为“海域引领”多端系统在边缘侧的实现，基于 NCNN 优化的 YOLO 模型实现海上目标识别与风险预警，集成 Dify/RAG 增强的大模型海域助手，提供在线航行问题响应与数字孪生可视化。  
+> **简介**：移动端为“海域引领”多端系统在边缘侧的实现，基于 NCNN 优化的 YOLO 模型实现海上目标识别与风险预警，集成 Dify/RAG 增强的大模型海域助手，提供在线航行问题响应与数字孪生可视化。
+>
 > 本仓库仅包含 Android 移动端源码（基于 Android Studio）用于功能演示，对于项目的完整桌面端网页端系统后续脱敏后开源。
 
 ---
@@ -41,17 +42,28 @@ repo-root/
 - `digital_twin.png` — 数字孪生/可视化界面
 - `settings.png` — 设置 / 模型切换界面
 
-![登录界面](app\src\main\assets\screenshots\login.png)  
-_图：登录 / 启动界面_
-
-![主界面](app\src\main\assets\screenshots\main.png)  
-_图：主界面 — 实时检测与海域信息_
-
-![检测结果](app\src\main\assets\screenshots\detection_result.png)  
-_图：检测结果（目标识别、测距）_
-
-![海域助手](app\src\main\assets\screenshots\assistant.png)  
-_图：海域助手 — RAG 问答与决策建议_
+<table>
+  <tr>
+    <td align="center">
+      <img src="app/src/main/assets/screenshots/login.png" width="420" />
+      <p><em>图：登录 / 启动界面</em></p>
+    </td>
+    <td align="center">
+      <img src="app/src/main/assets/screenshots/main.png" width="420" />
+      <p><em>图：主界面 — 实时检测与海域信息</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="app/src/main/assets/screenshots/detection_result.png" width="420" />
+      <p><em>图：检测结果（目标识别、测距）</em></p>
+    </td>
+    <td align="center">
+      <img src="app/src/main/assets/screenshots/assistant.png" width="420" />
+      <p><em>图：海域助手 — RAG 问答与决策建议</em></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -60,8 +72,8 @@ _图：海域助手 — RAG 问答与决策建议_
 1. 克隆仓库：
 
 ```bash
-git clone <your-repo-url>
-cd <repo-root>
+git clone https://github.com/xi029/Android-YOLO-Dify.git
+cd Android-YOLO-Dify
 ```
 
 2. 将 NCNN 模型文件放入：
@@ -113,6 +125,24 @@ POST /api/rag/query
 ```
 
 - 后端（Dify / 自建）负责检索海域知识库并调用微调大模型生成候选方案。
+
+---
+
+#### 🌊 桌面端和网页端系统展示
+
+代码脱敏后开源
+
+###### 桌面端界面展示（PyQt+MySQL+OpenCV+Dify）
+
+![桌面端界面](app/src/main/assets/screenshots/Win.png)
+
+###### Web 端界面展示（Vue3+flask+YOLO）
+
+![Web端界面](app/src/main/assets/screenshots/Web.png)
+
+###### RAG 问答与决策建议(Dify+知识库+大模型)
+
+![智能助手](app/src/main/assets/screenshots/AI.png)
 
 ---
 
