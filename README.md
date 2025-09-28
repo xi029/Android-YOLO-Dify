@@ -91,6 +91,8 @@ app/src/main/assets/models/
 
 ## 🧾 NCNN 模型部署（简要指南）
 
+##### 关于 NCNN 工具的一些使用可以看我和合作者的另一个仓库：[ncnn-tool](https://github.com/Edge-cat/ncnn-tool)
+
 1. PyTorch -> ONNX 导出（示例）：
 
 ```python
