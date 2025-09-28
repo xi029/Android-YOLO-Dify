@@ -115,8 +115,8 @@ ncnnoptimize model.param model.bin model-opt.param model-opt.bin 0
 - **在线方案（推荐）**：移动端发送上下文（位置信息 + 检测结果）到后端 RAG 服务，后端返回应急建议。
 - 简单请求示例（JSON）：
 
-```json
-POST /api/rag/query
+```
+
 {
   "location": {"lat":xx,"lon":yy},
   "detected": [{"type":"boat","distance":120}],
